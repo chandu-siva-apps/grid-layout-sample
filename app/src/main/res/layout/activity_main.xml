@@ -4,112 +4,88 @@
   xmlns:tools="http://schemas.android.com/tools"
   android:layout_width="match_parent"
   android:layout_height="match_parent"
-  android:background="@color/colorAccent"
   android:columnCount="2"
   android:orientation="horizontal"
   android:useDefaultMargins="true"
   tools:context=".MainActivity">
 
-  <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+  <TextView
+    android:id="@+id/cardA"
     android:layout_width="0dp"
     android:layout_height="0dp"
     android:layout_columnWeight="1"
     android:layout_gravity="fill_horizontal"
     android:layout_rowWeight="1"
-    card_view:cardCornerRadius="4dp">
+    android:background="@color/colorAccent"
+    android:gravity="center"
+    android:text="@string/a"
+    android:textColor="@color/white"
+    android:textSize="90sp" />
 
-    <TextView
-      android:layout_width="match_parent"
-      android:layout_height="match_parent"
-      android:gravity="center"
-      android:text="@string/a"
-      android:textSize="90sp" />
-
-  </android.support.v7.widget.CardView>
-
-  <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+  <TextView
+    android:id="@+id/cardB"
     android:layout_width="0dp"
     android:layout_height="0dp"
     android:layout_columnWeight="1"
     android:layout_gravity="fill_horizontal"
     android:layout_rowWeight="1"
-    card_view:cardCornerRadius="4dp">
+    android:background="@color/colorAccent"
+    android:gravity="center"
+    android:text="@string/b"
+    android:textColor="@color/white"
+    android:textSize="90sp" />
 
-    <TextView
-      android:layout_width="match_parent"
-      android:layout_height="match_parent"
-      android:gravity="center"
-      android:text="@string/b"
-      android:textSize="90sp" />
-
-  </android.support.v7.widget.CardView>
-
-  <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+  <TextView
+    android:id="@+id/cardC"
     android:layout_width="0dp"
     android:layout_height="0dp"
     android:layout_columnWeight="1"
     android:layout_gravity="fill_horizontal"
     android:layout_rowWeight="1"
-    card_view:cardCornerRadius="4dp">
+    android:background="@color/colorAccent"
+    android:gravity="center"
+    android:text="@string/c"
+    android:textColor="@color/white"
+    android:textSize="90sp" />
 
-    <TextView
-      android:layout_width="match_parent"
-      android:layout_height="match_parent"
-      android:gravity="center"
-      android:text="@string/c"
-      android:textSize="90sp" />
-
-  </android.support.v7.widget.CardView>
-
-  <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+  <TextView
+    android:id="@+id/cardD"
     android:layout_width="0dp"
     android:layout_height="0dp"
     android:layout_columnWeight="1"
     android:layout_gravity="fill_horizontal"
     android:layout_rowWeight="1"
-    card_view:cardCornerRadius="4dp">
+    android:background="@color/colorAccent"
+    android:gravity="center"
+    android:text="@string/d"
+    android:textColor="@color/white"
+    android:textSize="90sp" />
 
-    <TextView
-      android:layout_width="match_parent"
-      android:layout_height="match_parent"
-      android:gravity="center"
-      android:text="@string/d"
-      android:textSize="90sp" />
-
-  </android.support.v7.widget.CardView>
-
-  <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+  <TextView
+    android:id="@+id/cardE"
     android:layout_width="0dp"
     android:layout_height="0dp"
     android:layout_columnWeight="1"
     android:layout_gravity="fill_horizontal"
     android:layout_rowWeight="1"
-    card_view:cardCornerRadius="4dp">
+    android:background="@color/colorAccent"
+    android:gravity="center"
+    android:text="@string/e"
+    android:textColor="@color/white"
+    android:textSize="90sp" />
 
-    <TextView
-      android:layout_width="match_parent"
-      android:layout_height="match_parent"
-      android:gravity="center"
-      android:text="@string/e"
-      android:textSize="90sp" />
-
-  </android.support.v7.widget.CardView>
-
-  <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+  <TextView
+    android:id="@+id/cardF"
     android:layout_width="0dp"
     android:layout_height="0dp"
     android:layout_columnWeight="1"
     android:layout_gravity="fill_horizontal"
     android:layout_rowWeight="1"
-    card_view:cardCornerRadius="4dp">
+    android:background="@color/colorAccent"
+    android:gravity="center"
+    android:text="@string/f"
+    android:textColor="@color/white"
+    android:textSize="90sp" />
 
-    <TextView
-      android:layout_width="match_parent"
-      android:layout_height="match_parent"
-      android:gravity="center"
-      android:text="@string/f"
-      android:textSize="90sp" />
-
-  </android.support.v7.widget.CardView>
 
 </GridLayout>
